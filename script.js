@@ -11,7 +11,7 @@ function compute()
     spans=document.getElementsByTagName("span");
     spans=document.getElementsByTagName("span");
         spans[1].innerHTML= "If you deposit "+principal+",<br/>"+lf+
-"at an interest rate of "+spans[0].innerHTML+".<br/>"+lf+
+"at an interest rate of "+spans[0].innerHTML+",<br/>"+lf+
 "You will receive an amount of "+interest+",<br/>"+lf+
 "in the year "+year;
 }

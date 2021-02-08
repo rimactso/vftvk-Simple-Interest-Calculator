@@ -12,8 +12,9 @@ h1
 {
     background-color:white;
     color:black;
-    width:300px;
+    width:500px;
     padding:20px;
+    margin: auto;
     align-content:center;
     border-radius:25px;
 }
