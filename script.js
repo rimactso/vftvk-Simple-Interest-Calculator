@@ -1,5 +1,6 @@
 function compute()
 {
+    var lf =String.fromCharCode(13);
     var principal = document.getElementById("principal").value;
     var rate=document.getElementById("rate").value;
     var years=document.getElementById("years").value;
@@ -9,9 +10,9 @@ function compute()
     year=y+(years*1);
     spans=document.getElementsByTagName("span");
     spans=document.getElementsByTagName("span");
-        spans[1].innerHTML= "If you deposit "+principal+","+
-"at an interest rate of "+spans[0].innerHTML+"."+
-"You will receive an amount of "+interest+","+
+        spans[1].innerHTML= "If you deposit "+principal+",<br/>"+lf+
+"at an interest rate of "+spans[0].innerHTML+".<br/>"+lf+
+"You will receive an amount of "+interest+",<br/>"+lf+
 "in the year "+year;
 }
 function readRange()
