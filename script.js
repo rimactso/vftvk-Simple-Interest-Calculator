@@ -10,10 +10,10 @@ function compute()
     year=y+(years*1);
     spans=document.getElementsByTagName("span");
     spans=document.getElementsByTagName("span");
-        spans[1].innerHTML= "If you deposit "+principal+",<br/>"+lf+
-"at an interest rate of "+spans[0].innerHTML+",<br/>"+lf+
-"You will receive an amount of "+interest+",<br/>"+lf+
-"in the year "+year;
+        spans[1].innerHTML= "If you deposit <a class=yellow>"+principal+",</a><br/>"+lf+
+"at an interest rate of <a class=yellow>"+spans[0].innerHTML+"</a>,<br/>"+lf+
+"You will receive an amount of <a class=yellow>"+interest+"</a>,<br/>"+lf+
+"in the year <a class=yellow>"+year+"</a>";
 }
 function readRange()
 {
