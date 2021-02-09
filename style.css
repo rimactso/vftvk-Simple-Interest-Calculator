@@ -12,7 +12,7 @@ h1
 {
     background-color:white;
     color:black;
-    width:500px;
+    width:500px; /*  300 was not long enough */
     padding:20px;
     margin: auto;
     align-content:center;
